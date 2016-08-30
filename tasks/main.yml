@@ -1,2 +1,3 @@
 ---
-# tasks file for web
+  - name: install apache
+    yum: name=httpd state=latest
